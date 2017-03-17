@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<title>ÉOQ</title>
+	<style>
+		h2 {
+			font: 12pt Arial;
+			color: #171559;			
+		}
+	</style>
+</head>
+<body>
+<div>
+	<?php
+		$a = $_GET["a"];
+		$b = $_GET["b"];
+		$t = $a + $b;
+		echo "<h2>$a+$b=$t <br/></h2>";
+	?>
+</div>
+</body>
+</html>
